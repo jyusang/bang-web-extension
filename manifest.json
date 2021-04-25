@@ -1,0 +1,10 @@
+{
+  "description": "A web extension to mimic the DuckDuckGo bangs",
+  "manifest_version": 2,
+  "name": "bang-web-extension",
+  "version": "0.1.0",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["src/background.js"]
+  }
+}
